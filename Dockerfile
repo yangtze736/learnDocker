@@ -1,4 +1,5 @@
-FROM ubuntu
+FROM ubuntu:14.04
+MAINTAINER sayhello jiangzheahu@126.com
 
 RUN apt-get update
 RUN apt-get install -y nginx
